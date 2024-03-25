@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>BAIS Student Survey</title>
+        <link rel="stylesheet" href="stylesheet.css"/>
+    </head>
+    <body>
+        <h1>Business Analytics Student Survey</h1>
+        <main>
+            <form>
+                <fieldset>
+                    <label for="country">
+                        My home country is
+                        <input type="text" id="country" autofocus/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="town">
+                        My home town is
+                        <input type="text" id="town" required/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="state">
+                        My home state is
+                        <select name="state" id="state">
+                            <option value="">-- choose state/territory --</option>
+                            <option value="AL">AL</option>
+                            <option value="AK">AK</option>
+                            <option value="AZ">AZ</option>
+                            <option value="AR">AR</option>
+                            <option value="CA">CA</option>
+                            <option value="CO">CO</option>
+                            <option value="CT">CT</option>
+                            <option value="DE">DE</option>
+                            <option value="FL">FL</option>
+                            <option value="GA">GA</option>
+                            <option value="HI">HI</option>
+                            <option value="ID">ID</option>
+                            <option value="IL">IL</option>
+                            <option value="IN">IN</option>
+                            <option value="IA">IA</option>
+                            <option value="KS">KS</option>
+                            <option value="KY">KY</option>
+                            <option value="LA">LA</option>
+                            <option value="ME">ME</option>
+                            <option value="MD">MD</option>
+                            <option value="MA">MA</option>
+                            <option value="MI">MI</option>
+                            <option value="MN">MN</option>
+                            <option value="MS">MS</option>
+                            <option value="MO">MO</option>
+                            <option value="MT">MT</option>
+                            <option value="NE">NE</option>
+                            <option value="NV">NV</option>
+                            <option value="NH">NH</option>
+                            <option value="NJ">NJ</option>
+                            <option value="NM">NM</option>
+                            <option value="NY">NY</option>
+                            <option value="NC">NC</option>
+                            <option value="ND">ND</option>
+                            <option value="OH">OH</option>
+                            <option value="OK">OK</option>
+                            <option value="OR">OR</option>
+                            <option value="PA">PA</option>
+                            <option value="RI">RI</option>
+                            <option value="SC">SC</option>
+                            <option value="SD">SD</option>
+                            <option value="TN">TN</option>
+                            <option value="TX">TX</option>
+                            <option value="UT">UT</option>
+                            <option value="VT">VT</option>
+                            <option value="VA">VA</option>
+                            <option value="WA">WA</option>
+                            <option value="WV">WV</option>
+                            <option value="WI">WI</option>
+                            <option value="WY">WY</option>
+                            <!-- Added Washington D.C. -->
+                            <option value="DC">DC - Washington D.C.</option>
+                            <!-- Added U.S. Territories -->
+                            <option value="AS">AS - American Samoa</option>
+                            <option value="GU">GU - Guam</option>
+                            <option value="MP">MP - Northern Mariana Islands</option>
+                            <option value="PR">PR - Puerto Rico</option>
+                            <option value="VI">VI - U.S. Virgin Islands</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="ranking">
+                        My impression of the BAIS major is
+                        <select name="ranking" id="ranking" required>
+                            <option value="">-- choose Likert scale ranking --</option>
+                            <option value="5">5 - Very Positive</option>
+                            <option value="4">4 - Somewhat Positive</option>
+                            <option value="3">3 - Neutral</option>
+                            <option value="2">2 - Somewhat Negative</option>
+                            <option value="1">1 - Very Negative</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </form>
+        </main>
+        <p>
+            <button onclick="window.location.href='index.html';">
+                Back
+            </button>
+            <button onclick="window.location.href='aeshird_p2.html';">
+                Next
+            </button>
+        </p>
+        <footer>
+            <p>Page 1 of 3</p>
+        </footer>
+    </body>
+</html>

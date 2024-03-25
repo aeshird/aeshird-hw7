@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>BAIS Student Survey</title>
+        <link rel="stylesheet" href="stylesheet.css"/>
+    </head>
+    <body>
+        <h1>Business Analytics Student Survey</h1>
+        <fieldset>
+            <label for="race">What is your race?</label>
+                <select id="race" name="race">
+                    <option value="">-- select your race --</option>
+                    <option value="white"> White</option>
+                    <option value="black"> Black or African American</option>
+                    <option value="hispanic"> Hispanic or Latino</option>
+                    <option value="asian"> Asian</option>
+                    <option value="native_american"> American Indian or Alaska Native</option>
+                    <option value="pacific_islander"> Native Hawaiian or Other Pacific Islander</option>
+                    <option value="other"> Other</option>
+                </select>
+        </fieldset>
+        <br>
+            <fieldset>
+                <legend>How do you identify yourself?</legend>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female"> Female 
+                </label>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male"> Male
+                </label>
+                <label for="non-binary">
+                    <input type="radio" id="non-binary" name="gender" value="non-binary"> Non-binary
+                </label>
+            </fieldset>
+        <br>
+        <p>
+            <button onclick="window.location.href='aeshird_p2.html';">
+                Back
+            </button>
+            <button onclick="window.location.href='aeshird_ty.html';">
+                Next
+            </button>
+        </p>
+        <footer>
+            <p>Page 3 of 3</p>
+        </footer>
+    </body>
+</html>

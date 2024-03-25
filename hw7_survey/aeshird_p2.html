@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>BAIS Student Survey</title>
+        <link rel="stylesheet" href="stylesheet.css"/>
+    </head>
+    <body>
+        <h1>Business Analytics Student Survey</h1>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>I am finishing my</legend>
+                    <label for="first">
+                        <input type="radio" id="first" name="grade" value="first" required> first year at Iowa 
+                    </label>
+                    <label for="second">
+                        <input type="radio" id="second" name="grade" value="second" required> second year at Iowa
+                    </label>
+                    <label for="third">
+                        <input type="radio" id="third" name="grade" value="third" required> third year at Iowa
+                    </label>
+                    <label for="fourth">
+                        <input type="radio" id="fourth" name="grade" value="fourth" required> fourth year at Iowa
+                    </label>
+                    <label for="fifth">
+                        <input type="radio" id="fifth" name="grade" value="fifth" required> fifth or more year at Iowa
+                    </label>
+                </fieldset>
+                <br>
+                    <fieldset>
+                        <legend>BAIS core classes I have completed</legend>
+                        <label for="information">
+                            <input type="checkbox" id="information" name="course" value ="information"> Information Systems
+                        </label>    
+                        <label for="operations">
+                            <input type="checkbox" id="operations" name="course" value="opertions"> Operations
+                        </label>
+                        <label for="foundations">
+                            <input type="checkbox" id="foundations" name="course" value="foundations"> Foundations of Business Analytics
+                        </label>
+                        <label for="computational">
+                            <input type="checkbox" id="computational" name="course" value="computational"> Computational Thinking
+                        </label>
+                        <label for="database">
+                            <input type="checkbox" id="database" name="course" value="database"> Database Management
+                        </label>
+                        <label for="wrangling">
+                            <input type="checkbox" id="wrangling" name="course" value="wrangling"> Data Wrangling
+                        </label>
+                        <label for="mining">
+                            <input type="checkbox" id="mining" name="course" value="mining"> Data Mining
+                        </label>
+                        <label for="capstone">
+                            <input type="checkbox" id="capstone" name="course" value="capstone"> BAIS Capstone
+                        </label>
+                    </fieldset>
+                <br>
+            </form>
+        </main>
+        <p>
+            <button onclick="window.location.href='aeshird_p1.html';">
+                Back
+            </button>
+            <button onclick="window.location.href='aeshird_p3.html';">
+                Next
+            </button>
+        </p>
+        <footer>
+            <p>Page 2 of 3</p>
+        </footer>
+    </body>
+</html>
