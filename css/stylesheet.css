@@ -1,3 +1,13 @@
+/* DM Serif Display for titles and Noto Serif for paragraphs */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+}
+
 body {
-    background-color: pink;
+    background-color: lightgray;
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
 }
