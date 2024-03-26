@@ -6,6 +6,12 @@
         <title>BAIS Student Survey</title>
         <link rel="stylesheet" href="../css/stylesheet.css"/>
         <script src="https://kit.fontawesome.com/c742b2c423.js" crossorigin="anonymous"></script>
+        <style>
+            .radio-group label {
+                display: block; /* Force option to next line */
+                margin-bottom: 5px; /* Add space between options */
+            }
+        </style>
     </head>
     <body>
         <h1>Business Analytics Student Survey</h1>
@@ -30,15 +36,17 @@
                         <span class="tooltip tooltiptext">Identifying your gender helps us enhance diversity and inclusion in tech by addressing historical gender imbalances.</span>
                     </span>
                 </legend>
-                <label for="female">
-                    <input type="radio" id="female" name="gender" value="female"> Female 
-                </label>
-                <label for="male">
-                    <input type="radio" id="male" name="gender" value="male"> Male
-                </label>
-                <label for="non-binary">
-                    <input type="radio" id="non-binary" name="gender" value="non-binary"> Non-binary
-                </label>
+                    <div class="radio-group">
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female"> Female 
+                    </label>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male"> Male
+                    </label>
+                    <label for="non-binary">
+                        <input type="radio" id="non-binary" name="gender" value="non-binary"> Non-binary
+                    </label>
+                </div>
             </fieldset>
         <br>
         <p>
