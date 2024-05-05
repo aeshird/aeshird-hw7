@@ -16,3 +16,6 @@ Use the following link to access the [Business Analytics Student Survey](https:/
 ---
 
 ### Result
+The following image shows the start page for the Business Analytics Student Survey and what should appear when using the link above. 
+
+<img src="images/SurveyStartPage.jpg" width="200" alt="Business Analytics Student Survey Start Page">
