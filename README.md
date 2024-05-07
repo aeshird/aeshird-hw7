@@ -1,11 +1,13 @@
 ## Web Form
 ### Business Analytics Student Survey
 
-![Azure badge](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+This project is a web form for the Business Analytics Student Survey utilizing both HTML and CSS to create, design, and build the survey. Once this was complete, Microsoft Azure was used to create a Static Web App for users to access the Business Analytics Student Survey.
 
-The purpose of this assignment is to help you become familiar with the HTML and CSS
-necessary to create a web form as well as design considerations when building forms. In
-addition, in this assignment you will also continue improve your Git and GitHub skills. 
+---
+
+### Technical Skills Utilized
+
+![Azure badge](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ---
 
